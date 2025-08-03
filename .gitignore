@@ -1,0 +1,16 @@
+History/
+__Previews/
+*.PrjPcbStructure
+*.LOG
+*.raw
+*.plt
+*.bkp
+*.bkp
+*.asc
+*.net
+*.drc
+*.html
+*.step
+**/Project Outputs*
+*.pdf
+*.html
