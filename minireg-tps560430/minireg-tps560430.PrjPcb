@@ -50,6 +50,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=minireg-tps560430-multi.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YOBUYLSY
+
+[Document2]
 DocumentPath=minireg-tps560430.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -66,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LALCTDKA
 
-[Document2]
+[Document3]
 DocumentPath=minireg-tps560430.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KYFJAAIC
 
-[Document3]
+[Document4]
 DocumentPath=..\minireg.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JWURDCXP
 
-[Document4]
+[Document5]
 DocumentPath=..\minireg.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HVKEEGJE
 
-[Document5]
+[Document6]
 DocumentPath=..\minireg.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,6 +150,49 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document7]
+DocumentPath=..\..\altium-library\footprints\flexypin.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EJLVBSKO
+
+[ProjectVariant1]
+UniqueId=dad3f4a9-30ce-4b7e-a81b-e0ef91f6d1b1
+Description=minireg-tps560430-3v3
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=L1|UniqueId=\ETSFXCTA|Kind=0|AlternatePart=744053680
+ParamVariation1=ParameterName=Comment|VariantValue=744053680
+ParamDesignator1=L1
+ParamVariationCount=1
+
+[ProjectVariant2]
+UniqueId=3a98348c-5f8c-400f-b7a2-23641a094383
+Description=minireg-tps560430-5v5
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=R1|UniqueId=\ACGYWJJS|Kind=0|AlternatePart=
+ParamVariation1=ParameterName=Part Number|VariantValue=RES-SM-0603-100K
+ParamDesignator1=R1
+ParamVariation2=ParameterName=value|VariantValue=100K
+ParamDesignator2=R1
+ParamVariation3=ParameterName=Description|VariantValue=RES SM 0603 100K
+ParamDesignator3=R1
+ParamVariationCount=3
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for minireg-dcdc\Design Rule Check - minireg-dcdc.html
@@ -515,6 +575,11 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
+OutputType10=BoasTools
+OutputName10=BoasTools Html BOM
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs

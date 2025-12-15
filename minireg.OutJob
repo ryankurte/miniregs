@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=minireg.OutJob
 Description=
 TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
@@ -225,49 +225,38 @@ OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.48|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration6_Name1=OutputConfigurationParameter1
 Configuration6_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=31496063|ViewY=49212598|LookAtX=53149608|LookAtY=33464568|LookAtZ=0|UpX=0|UpY=1|UpZ=0|FOV=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=2.63753602278831E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ScreenWidth=0|ScreenHeight=0|ImageOutputType=1|ViewConfig= |DocumentPath=
-OutputType7=PCBDrawing
-OutputName7=Draftsman
-OutputCategory7=Documentation
-OutputDocumentPath7=gpr.PCBDwf
+OutputType7=BOM_PartType
+OutputName7=Bill of Materials
+OutputCategory7=Report
+OutputDocumentPath7=
 OutputVariantName7=
-OutputEnabled7=0
+OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
-OutputEnabled7_OutputMedium2=0
-OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium2=3
+OutputEnabled7_OutputMedium3=3
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A3|PaperIndex=8
-OutputType8=BOM_PartType
-OutputName8=Bill of Materials
-OutputCategory8=Report
-OutputDocumentPath8=
-OutputVariantName8=
-OutputEnabled8=1
-OutputEnabled8_OutputMedium1=0
-OutputEnabled8_OutputMedium2=3
-OutputEnabled8_OutputMedium3=3
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PrintScaleName=PrintFitPageWidth|PaperKind=A4|PaperIndex=9
-Configuration8_Name1=ColumnNameFormat
-Configuration8_Item1=CaptionAsName
-Configuration8_Name2=General
-Configuration8_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1616|FormHeight=1021|SupplierProdQty=3|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=2|ViewType=0|BomSetName=
-Configuration8_Name3=GroupOrder
-Configuration8_Item3=DesignItemId=True
-Configuration8_Name4=SortOrder
-Configuration8_Item4=Designator=Up|Comment=Up
-Configuration8_Name5=VisibleOrder
-Configuration8_Item5=Line #=43|Comment=130|Quantity=56|Designator=288|Value=49|Package=91|Description=446|Manufacturer 1=195|Manufacturer Part Number 1=158|DesignItemId=100
-Configuration8_Name6=VisibleOrder_Base
-Configuration8_Item6=Line #=43|Comment=130|Quantity=56|Designator=288|Value=49|Package=91|Description=446|Manufacturer 1=195|Manufacturer Part Number 1=158
-Configuration8_Name7=VisibleOrder_Consolidated
-Configuration8_Item7=Line #=53|Comment=128|Description=100|Designator=100|Revision ID=144|Revision State=128|Revision Status=97|Quantity=66|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=142|Supplier 1=72|Supplier Part Number 1=138|Supplier Unit Price 1=122|Supplier Subtotal 1=116|Supplier 2=100|Supplier Part Number 2=100|Supplier Unit Price 2=100|Supplier Subtotal 2=100
-Configuration8_Name8=VisibleOrder_Flat
-Configuration8_Item8=Line #=43|Comment=130|Quantity=56|Designator=288|Value=49|Package=91|Description=446|Manufacturer 1=195|Manufacturer Part Number 1=158|DesignItemId=100
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PrintScaleName=PrintFitPageWidth|PaperKind=A4|PaperIndex=9
+Configuration7_Name1=ColumnNameFormat
+Configuration7_Item1=CaptionAsName
+Configuration7_Name2=General
+Configuration7_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1616|FormHeight=1021|SupplierProdQty=3|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=2|ViewType=0|BomSetName=
+Configuration7_Name3=GroupOrder
+Configuration7_Item3=DesignItemId=True
+Configuration7_Name4=SortOrder
+Configuration7_Item4=Designator=Up|Comment=Up
+Configuration7_Name5=VisibleOrder
+Configuration7_Item5=Line #=43|Comment=130|Quantity=56|Designator=288|Value=49|Package=91|Description=446|Manufacturer 1=195|Manufacturer Part Number 1=158|DesignItemId=100
+Configuration7_Name6=VisibleOrder_Base
+Configuration7_Item6=Line #=43|Comment=130|Quantity=56|Designator=288|Value=49|Package=91|Description=446|Manufacturer 1=195|Manufacturer Part Number 1=158
+Configuration7_Name7=VisibleOrder_Consolidated
+Configuration7_Item7=Line #=53|Comment=128|Description=100|Designator=100|Revision ID=144|Revision State=128|Revision Status=97|Quantity=66|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=142|Supplier 1=72|Supplier Part Number 1=138|Supplier Unit Price 1=122|Supplier Subtotal 1=116|Supplier 2=100|Supplier Part Number 2=100|Supplier Unit Price 2=100|Supplier Subtotal 2=100
+Configuration7_Name8=VisibleOrder_Flat
+Configuration7_Item8=Line #=43|Comment=130|Quantity=56|Designator=288|Value=49|Package=91|Description=446|Manufacturer 1=195|Manufacturer Part Number 1=158|DesignItemId=100
 
 [PublishSettings]
 OutputFilePath2=C:\projects\hw-gpr\Project Outputs for gpr\#NAME_.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for minireg-xcl247
+OutputBasePath2=Project Outputs for minireg-tps560430
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -292,9 +281,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\projects\hw-mods\minireg\Project Outputs for minireg\minireg-Version\
+OutputFilePath3=C:\projects\miniregs\minireg-tps560430\Project Outputs for minireg-tps560430\minireg-tps560430-v0.1\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for minireg
+OutputBasePath3=Project Outputs for minireg-tps560430
 OutputPathMedia3==ProjectName + '-' + Version
 OutputPathMediaValue3==ProjectName + '-' + Version
 OutputPathOutputer3=
@@ -309,7 +298,7 @@ OpenOutput3=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\projects\hw-gpr\Project Outputs for gpr\#NAME_.PDF
 OpenOutputs2=1
-RelativeOutputPath3=C:\projects\hw-mods\minireg\Project Outputs for minireg\minireg-Version\
+RelativeOutputPath3=C:\projects\miniregs\minireg-tps560430\Project Outputs for minireg-tps560430\minireg-tps560430-v0.1\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0

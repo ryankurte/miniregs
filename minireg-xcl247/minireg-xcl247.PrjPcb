@@ -68,7 +68,7 @@ GenerateClassCluster=0
 DocumentUniqueId=INMXYGVO
 
 [Document2]
-DocumentPath=minireg-xcl247-panel.PcbDoc
+DocumentPath=minireg-xcl247-multi.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -693,6 +693,11 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
+OutputType10=BoasTools
+OutputName10=BoasTools Html BOM
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
