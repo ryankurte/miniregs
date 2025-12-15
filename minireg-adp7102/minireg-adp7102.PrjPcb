@@ -44,12 +44,30 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=minireg-adp7102-5v0
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=minireg-adp7102-multi.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YOBUYLSY
+
+[Document2]
 DocumentPath=minireg-adp7102.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -66,7 +84,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XZZHVBAR
 
-[Document2]
+[Document3]
 DocumentPath=minireg-adp7102.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,7 +101,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OYPBGWOW
 
-[Document3]
+[Document4]
 DocumentPath=..\minireg.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +118,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document5]
 DocumentPath=..\minireg.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document6]
 DocumentPath=..\minireg.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +152,34 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[ProjectVariant1]
+UniqueId=131733c9-d423-457e-8cec-4828968fa958
+Description=minireg-adp7102-5v0
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueId=94121df7-7c7b-462a-99a1-fd7e0ee12487
+Description=minireg-adp7102-3V3
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=R4|UniqueId=\SQFEMHTL|Kind=0|AlternatePart=
+ParamVariation1=ParameterName=Part Number|VariantValue=RES-SM-0603-22.1K
+ParamDesignator1=R4
+ParamVariation2=ParameterName=Description|VariantValue=RES SM 0603 22.1K
+ParamDesignator2=R4
+ParamVariation3=ParameterName=value|VariantValue=22.1K
+ParamDesignator3=R4
+ParamVariationCount=3
+
 [GeneratedDocument1]
+DocumentPath=Project Outputs for minireg-adp7102\Design Rule Check - minireg-adp7102.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for minireg-ldo\Design Rule Check - minireg-ldo.html
 DItemRevisionGUID=
 
@@ -511,6 +556,11 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
+OutputType10=BoasTools
+OutputName10=BoasTools Html BOM
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
